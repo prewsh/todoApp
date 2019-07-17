@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../bg.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.background{
+    width: 30%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    overflow: hidden;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.096);
+}
+
+h1{
+    font-size: 3rem;
+    font-family: cursive;
+    text-align: center;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 9px;
+}
+
+form>input{
+    font-size: 30px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(218, 240, 232, 0.39);
+}
+
+form> button{
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 8px 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: antiquewhite;
+}
+
+button:hover{
+    background-color: rgba(218, 240, 232, 0.39);
+}
+
+#mylists{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 2rem;
+    border-top: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+}
